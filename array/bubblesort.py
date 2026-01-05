@@ -1,4 +1,3 @@
-# 13. Bubble sort
 arr = [int(x) for x in input().split()]
 for i in range(len(arr)):
     for j in range(len(arr)-i-1):

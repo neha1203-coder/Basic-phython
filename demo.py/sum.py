@@ -1,4 +1,3 @@
-a = 84
-b = 39
-sum = a + b
-print("sum is:", sum)
+a = int(input("enter first no :"))
+b = int(input("enter second no :"))
+print("sum of no: ", a+b)

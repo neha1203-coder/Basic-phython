@@ -1,4 +1,3 @@
-# 12. Binary Search (array must be sorted)
 def binary_search(arr, key):
     low, high = 0, len(arr)-1
     while low <= high:

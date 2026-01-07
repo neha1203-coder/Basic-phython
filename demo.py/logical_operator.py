@@ -1,0 +1,6 @@
+a=int(input("enter first no: " ))
+b=int(input("enter second no: "))
+print("and operator: ", a<39 and b>23)
+print("or operator: ", a<39 or b>23)
+print("not operator for a: ", not(a>20))
+print("not operator for b: ", not(b<31))

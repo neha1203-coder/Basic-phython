@@ -1,5 +1,5 @@
-marks = [23,43.4,34.3,54,32,64.90]
-student = ["karan", "shashank",43,59,"priya"]
+marks = [23,43.4,34.3,54,32,64.90]                  #list name is marks
+student = ["karan", "shashank",43,59,"priya"]       #list name is student
 print(marks)
 print(student)
 print(type(marks))

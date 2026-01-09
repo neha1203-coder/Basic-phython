@@ -15,3 +15,5 @@ print(student[3])
 student[3]="shubham"
 print(student)
 print(student[1:4])  #slicing and in slicing ending index is not included but starting index is included
+print(student[1:])
+print(marks[:3])

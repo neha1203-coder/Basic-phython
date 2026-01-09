@@ -15,5 +15,8 @@ print(student[3])
 student[3]="shubham"
 print(student)
 print(student[1:4])  #slicing and in slicing ending index is not included but starting index is included
-print(student[1:])
-print(marks[:3])
+print(student[1:])    #it automatically take last index
+print(marks[:3])         # it sutomatically take first index
+print(student[-3:-1])     #negative indexing (slicing)
+print(student[-2:])
+print(marks[-4:-1])

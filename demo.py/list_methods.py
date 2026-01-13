@@ -22,3 +22,11 @@ fruits.reverse()
 print(fruits)
 fruits.insert(3,"litchi")
 print(fruits)
+list2=[1,4,2,4,1]
+print(list2)
+list2.remove(4)              # it removes the 1st repeating element of the list or occurrence of element
+list2.remove(1)
+print(list2)
+list2.pop(2)               # remove element at index 2
+print(list2)
+

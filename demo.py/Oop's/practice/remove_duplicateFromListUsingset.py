@@ -1,0 +1,5 @@
+lst = list(map(int,input("enter elements: ").split()))
+print("list: ",lst)
+s = set(lst)
+lst2 = list(s)
+print("updated list: ",lst2)

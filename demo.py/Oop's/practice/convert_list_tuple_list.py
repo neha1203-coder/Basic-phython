@@ -1,0 +1,5 @@
+lst = list(map(int,input("enter elements: ").split()))
+tup = tuple(lst)
+print("tuple: ",tup)
+lst2 = list(tup)
+print("list: ",lst2)

@@ -1,0 +1,18 @@
+def create_question_file():
+    questions = [
+        "What is the capital of India?|Delhi",
+        "What is 5 + 3?|8",
+        "Who developed Python?|Guido van Rossum",
+        "What is the file extension of Python?|.py",
+        "Which keyword is used for function in Python?|def"
+    ]
+
+    with open("questions.txt", "w") as file:
+        for q in questions:
+            file.write(q + "\n")
+
+    print("✅ questions.txt file created successfully!")
+
+
+# Run this function
+create_question_file()
